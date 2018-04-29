@@ -5,11 +5,40 @@
   grid-template-columns: repeat(3,1fr)
 }
 
-.navLink {
-  padding: 0.5rem;
-  border: 3px solid #DDE7C7;
-  margin: 1rem;
+.craig {
+  grid-row: 1;
+  grid-column: 1/-1;
+  border: 1px solid black;
 }
 
+.name {
+  margin: 1rem auto;
+  font-family: "Futura";
+  font-size: 3rem;
+  border: 1px solid black;
+  text-align: center
+}
+.imgContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  align-items: center;
+  margin: auto
+}
+
+.imgContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.navLink {
+  grid-row: 2;
+  padding: 0.5rem;
+  border: 3px solid #DDE7C7;
+  margin: 3rem 1rem 0.5rem 1rem;
+  background: rgba(191, 216, 189, 0.5)
+}
 
 
