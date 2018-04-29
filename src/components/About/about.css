@@ -2,35 +2,13 @@
   margin: 0.5rem;
 }
 
-.craig {
-  text-align: center;
-  font-family: Futura;
-  text-shadow: 1px 2px #1f363d;
-  color: #fffcf7;
-  font-size: 3rem;
-  grid-row: 2;
-  margin-top: 3rem;
+
+.bio {
+  background: rgba(245, 245, 245, 0.7);
+  padding: 1rem;
+  border-radius: 4px
 }
 
-
-.imgContainer {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
-  align-items: center;
-  margin: auto
+.bio h4 {
+  text-align: center
 }
-
-.imgContainer img {
-  width: 100%;
-  height: auto;
-  opacity: 1;
-  transition: opacity 3s
-}
-
-
-img[src] {
-  opacity: 1;
-} 
