@@ -3,7 +3,10 @@
   linear-gradient( #40798c,#70a9a1);
   background-size: 140px, auto;
   display: grid;
-  grid-template-columns: repeat(3,1fr)
+  grid-template-columns: repeat(3,1fr);
+  position: fixed;
+  top: 0;
+  width: 100%
 }
 
 .craig {
@@ -33,11 +36,12 @@
   width: 100%;
   height: auto;
 }
+
 .navLink {
   grid-row: 2;
   padding: 0.5rem;
   border: solid #DDE7C7;
-  border-width: 5px 3px 3px 0px ;
+  border-width: 5px 0px 0px 3px ;
   border-radius: 5px 4px 0 0;
   background: rgba(191, 216, 189, 0.5);
   font-family: "Futura";
