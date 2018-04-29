@@ -6,8 +6,12 @@
   color: #fffcf7;
   font-size: 3rem;
   grid-row: 1;
+
 }
 
+.name {
+  /* margin: -10px; */
+}
 
 .imgContainer {
   position: relative;

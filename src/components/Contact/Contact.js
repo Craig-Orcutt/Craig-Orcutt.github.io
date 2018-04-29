@@ -1,21 +1,26 @@
-import React from 'react';
-import './contact.css';
+import React from "react";
+import "./contact.css";
 
 class Contact extends React.Component {
   render() {
     return (
       <div id="contact">
-        <h2>Contact</h2>
-          <p>
-          Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-          Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-          
-          Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-          </p>
+        <div className="contactIcons">
+          <a href="https://github.com/Craig-Orcutt" target="_blank">
+            <img src={require("../../assets/githubIcon.svg")} alt="Git on My Level" />
+          </a>
+          <a href="https://www.linkedin.com/in/craig-orcutt/" target="_blank">
+            <img src={require("../../assets/linkedInIcon.png")} alt="Lets Link Up!" />
+          </a>
+          <a href="https://www.facebook.com/craig.orcutt.3" target="_blank">
+            <img src={require("../../assets/facebookIcon.png")} alt="Facebook is watching you" />
+          </a>
+          <a href="mailto:craigaorcutt@gmail.com" target="_top">
+            <img src={require("../../assets/emailIcon.png")} alt="Send me a Line!" />
+          </a>
+        </div>
       </div>
-
-    )
+    );
   }
 }
-export default Contact
+export default Contact;
