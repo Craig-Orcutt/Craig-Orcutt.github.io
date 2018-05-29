@@ -5,6 +5,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div id="contact">
+        
         <div className="contactIcons">
           <a href="https://github.com/Craig-Orcutt" target="_blank">
             <img src={require("../../assets/githubIcon.svg")} alt="Git on My Level" />
