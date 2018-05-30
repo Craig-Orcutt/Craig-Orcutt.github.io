@@ -4,9 +4,11 @@
 
 
 .bio {
-  background: rgba(158, 193, 163, 0.8);
+  background: rgba(98, 193, 163, 0.8);
+  color: white;
+  text-shadow: 0.8px 0.8px black;
   padding: 1rem;
-  border-radius: 4px
+
 }
 
 .bio h4 {
