@@ -1,4 +1,5 @@
 import React from "react";
+import {FormGroup, FormLabel, TextField} from '@material-ui/core'
 import "./contact.css";
 
 class Contact extends React.Component {
@@ -16,9 +17,11 @@ class Contact extends React.Component {
           <a href="https://www.facebook.com/craig.orcutt.3" target="_blank">
             <img src={require("../../assets/facebookIcon.png")} alt="Facebook is watching you" />
           </a>
-          <a href="mailto:craigaorcutt@gmail.com" target="_top">
-            <img src={require("../../assets/emailIcon.png")} alt="Send me a Line!" />
-          </a>
+          <FormGroup>
+            <TextField label="Name" />
+            <TextField label="Email" />
+            <TextField label="Number" />
+          </FormGroup>
         </div>
       </div>
     );
