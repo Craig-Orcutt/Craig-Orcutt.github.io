@@ -1,5 +1,4 @@
 import React from "react";
-import FormModal from '../FormModal/FormModal'
 import { FormGroup, TextField, Button } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 import Send from "@material-ui/icons/Send";
@@ -73,7 +72,7 @@ class Contact extends React.Component {
             />
           </a>
         </div>
-        <FormModal open={this.state.open} />
+
       </div>
     );
   }
