@@ -1,0 +1,17 @@
+a img {
+  height: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(14, 121, 140)
+}
+
+a:visited {
+  color: rgb(14, 121, 140);
+}
+
+#projects > div{
+  /* margin: 1rem; */
+}
+
