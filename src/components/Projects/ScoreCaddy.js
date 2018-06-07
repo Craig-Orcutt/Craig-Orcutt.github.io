@@ -52,7 +52,7 @@ class ScoreCaddy extends React.Component {
     const { classes } = this.props;
     return (
       <Card className={classes.card}>
-        <CardHeader title="ScoreCaddy" subheader="" />
+        <CardHeader title="ScoreCaddy" subheader="A simple golf app to keep track of scores and stats" />
         <CardMedia
           className={classes.media}
           image="https://media.giphy.com/media/JF8SOTMVuTfZHfY2Hy/giphy.gif"

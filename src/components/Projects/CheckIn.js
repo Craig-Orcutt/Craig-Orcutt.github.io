@@ -52,7 +52,7 @@ class CheckIn extends React.Component {
     const { classes } = this.props;
     return (
       <Card className={classes.card}>
-        <CardHeader title="CheckIn" subheader="" />
+        <CardHeader title="CheckIn" subheader="An remote accountability app for the sober-living community" />
         <CardMedia
           
           className={classes.media}
